@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./style.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <title>goodmorning</title>
+    </head>
+    <body>
+
+            <audio  id="song" loop>
+                        <source src="./alla my love (4) (1).mp3">
+                    </audio>
+                    
+                    <script>
+                    window.addEventListener('click',() => {
+                    document.getElementById("song").play();
+                    });
+                    </script>
+        <div class="envelope-wrapper">
+            <div id="envelope" class="close">
+                <div class="front flap"></div>
+                <div class="front pocket"></div>
+                <div class="letter">
+                        <p class="words line1">Доброе утро,</p>
+                        <p class="words line2">Самая солнечная девочка!</p>
+                        <p class="words line3">С любовью,</p>
+                        <p class="words line4" style="font-size: 10px;">Лешка Картошка</p>
+                </div>
+                <div class="hearts">
+                    <div class="heart a1"></div>
+                    <div class="heart a2"></div>
+                    <div class="heart a3"></div>
+                </div>
+            </div>
+        </div>
+        <div class="reset">
+            <button id="open">Открой меня</button>
+            <button id="reset">Перезагрузи </button>
+        </div>
+        <h1 class="valentine">С добрым утром солнышко!</h1>
+        <script src="index.js"></script>
+    </body>
+</html>
